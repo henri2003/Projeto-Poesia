@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+@media  (max-width: 600px ) {
+
+     section#img1{
+        background-image: url(conteudo/imagens/background001florp.jpg);
+        background-attachment: local;
+     }
+}
+
+@media  (max-width: 600px ) {
+
+     section#img2{
+        background-image: url(conteudo/imagens/background002livrop.jpg);
+        background-attachment: local;
+     }
+}
+
+
+:root {
+    --fonte1: Verdana, Geneva, tahoma, sans-serif;
+    --fonte2: 'Passion One', sans-serif;
+    --fonte3: 'Sriracha', sans-serif;
+
+
+}
+
+
+
+* {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+
+    background-color: darkgrey;
+    font-family: var(--fonte1);
+
+
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+
+
+}
+
+
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 50px;
+    font-family: var(--fonte2);
+
+
+
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+section {
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 20px;
+}
+
+
+
+section p {
+    padding-bottom: 1em;
+}
+
+
+
+
+
+section.normal {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+section.imagem {
+    background-color: #333232;
+    color: #fff;
+    box-shadow: inset 5px 10px 5px rgba(0, 0, 0, 0.355);
+    background-attachment: fixed;
+    background-size: 100px,100px;
+}
+
+
+
+
+section.imagem>p {
+    display: inline-block;
+    padding: 10px;
+    background-color: #1d1d1d2f;
+  
+}
+
+
+
+
+section#img1 {
+    background-image: url(Conteudo/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+
+
+
+section#img2 {
+   background-image: url(Conteudo/imagens/background002.jpg);
+   background-position: right center;
+   background-size: cover;
+
+}
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
