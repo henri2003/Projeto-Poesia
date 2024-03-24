@@ -142,7 +142,7 @@ section.imagem>p {
 
 
 section#img1 {
-    background-image: url(Conteudo/imagens/background001.jpg);
+    background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
 
@@ -151,7 +151,7 @@ section#img1 {
 
 
 section#img2 {
-   background-image: url(Conteudo/imagens/background002.jpg);
+   background-image: url(imagens/background002.jpg);
    background-position: right center;
    background-size: cover;
 
